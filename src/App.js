@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import Dropdown from './components/Dropdown';
-import './App.css';
+import React, {useState} from 'react'
+import Dropdown from './components/Dropdown'
+import './App.css'
 
 function App() {
   const [dropdownState, setDropdownState] = useState({
@@ -14,16 +14,16 @@ function App() {
     text: '',
     type: 'SingleNoIcon',
     activeItemIndex: -1,
-    items: ['Option 1', 'Option 2', 'Option 3', 'Option 4']
-  });
+    items: ['Option 1', 'Option 2', 'Option 3', 'Option 4'],
+  })
 
-  const handleItemSelect = (selectedIndex) => {
+  const handleItemSelect = selectedIndex => {
     setDropdownState({
       ...dropdownState,
       activeItemIndex: selectedIndex,
-      text: dropdownState.items[selectedIndex]
-    });
-  };
+      text: dropdownState.items[selectedIndex],
+    })
+  }
 
   return (
     <div className="App">
@@ -42,7 +42,7 @@ function App() {
         onItemSelect={handleItemSelect}
       />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

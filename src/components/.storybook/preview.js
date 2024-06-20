@@ -1,9 +1,9 @@
 export const parameters = {
-  actions: { argTypesRegex: '^on.*' },
+  actions: {argTypesRegex: '^on.*'},
   controls: {
     matchers: {
       color: /(background|color)$/i,
       date: /Date$/,
     },
   },
-};
+}

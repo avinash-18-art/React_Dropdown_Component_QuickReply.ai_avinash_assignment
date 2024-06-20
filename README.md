@@ -81,7 +81,7 @@ The Dropdown component accepts the following props:
 
 ### Folder Structure
 
-src/ components/ Dropdown/ Dropdown.tsx Dropdown.stories.tsx Dropdown.scss index.tsx App.tsx .storybook/ main.js preview.js
+src/ components/ Dropdown/ Dropdown.js Dropdown.stories.js Dropdown.css index.js App.js .storybook/ main.js preview.js
 
 ### Commands
 
